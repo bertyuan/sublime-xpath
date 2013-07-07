@@ -38,6 +38,7 @@ def updateStatus(view):
 
 
 def isXML(view):
+    return True
     ext = re.sub(
         r'.*\.(\w+)$',
         r'\1',
